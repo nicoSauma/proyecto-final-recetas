@@ -32,6 +32,19 @@
       "readyInMinutes": 2,
       "servings": 1,
       "instructions": "dsds"
+    },
+    {
+      "id": "b93b",
+      "title": "rerere",
+      "ingredients": [
+        "dssdserr"
+      ],
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "readyInMinutes": 2,
+      "servings": 1,
+      "instructions": "dsds"
     }
   ]
 }
