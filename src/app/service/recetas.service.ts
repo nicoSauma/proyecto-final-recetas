@@ -48,7 +48,7 @@ export class RecetasService {
   }
 
 //form
-  postRecteas(receta: Receta2): Observable <Receta2>{
+  postRectea(receta: Receta2): Observable <Receta2>{
     return this.http.post<Receta2>(this.baseUrl,receta);
   }
 
@@ -58,7 +58,7 @@ export class RecetasService {
   }
 
   
-  deleteLista(idReceta: string): Observable<Receta2> {
+  deleteReceta(idReceta: string): Observable<Receta2> {
     return this.http.delete<Receta2>(`${this.baseUrl}/${idReceta}`);
   }
   //form
